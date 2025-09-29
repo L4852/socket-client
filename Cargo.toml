@@ -1,0 +1,10 @@
+[package]
+name = "fsae-demo-project-socket-client"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+iced = "0.13.1"
+serde = "1.0.226"
+serde_json = "1.0.145"
+tokio = { version = "1.47.1", features = ["rt", "rt-multi-thread", "macros", "net", "io-util"] }
